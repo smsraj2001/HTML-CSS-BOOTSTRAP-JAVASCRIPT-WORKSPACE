@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p /* This will select all p elements inside a div element */
+        {
+            background-color: red;
+        }
+
+        div > p /* This will select all p elements that are direct children of a div element */
+        {
+            background-color: red;
+        }
+
+        div + p /* This will select all p elements that are immediately preceded by a div element
+                   Only the first p element after the div element will be selected */
+        {
+            color: yellow;
+        }
+
+        div ~ p /* This will select all p elements that are preceded by a div element
+                   All p elements after the div element will be selected */
+        {
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p>This is p</p>
+    <p>This is p</p>
+    <div>
+        <p>This is p inside div</p>
+        <p>This is p inside div</p>
+        <section>
+            <p>This is p inside div</p>
+        </section>    
+    </div>
+    <p>This is p after div</p>
+    <h1>This is h1 after div</h1>
+    <p>This is p after div</p>
+</body>
+</html>

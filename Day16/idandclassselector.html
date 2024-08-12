@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+       .mystyle /*Class selector*/
+       {
+            color:red;
+            background-color: green;
+       }
+
+       .mystyle2 /*Class selector*/
+       {
+            font-family:'Times New Roman', Times, serif;
+            font-size: 30px; /* Default is 16 px */
+            background-color: yellow; /* This will override the background-color of mystyle */
+       }
+
+       #mystylex /*ID selector*/
+       {
+            background-color: green;
+       }
+        </style>
+
+</head>
+<body>
+    <h1>This is H1</h1>
+    <h2 class="mystyle">This is H2</h2>
+    <h3>This is H3</h3>
+    <p class="mystyle">This is p</p>
+    <p id="mystylex">This is also p</p>
+    <p class="mystyle mystyle2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nemo minus amet aut quasi illo dolores iste nostrum voluptatibus ipsa!</p>
+    
+</body>
+</html>
