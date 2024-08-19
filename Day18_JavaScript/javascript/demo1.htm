@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/JavaScript">
+        function displayMessage()
+        {
+            alert('Hello World');
+        }
+
+        function displayMessage2()
+        {
+            console.log('Hello World');
+        }
+        function displayMessage3()
+        {
+            document.write('Hello World in Browser Web Page...');
+        }
+        function displayMessage4()
+        {
+            document.getElementById('p1').innerHTML = 'Hello World in the p element...';
+        }
+    </script>
+    <h1>Javascript Demo</h1>
+    <pi id = "p1"></p>
+    <button onclick="alert('Hello World')">Inline JavaScript Output</button>
+    <button onclick="alert('displayMessage')">Alert Output</button>
+    <button onclick="displayMessage2()">Console Output</button>
+    <button onclick="displayMessage3()">Browser Output</button>
+    <button onclick="displayMessage4()">Inner HTML Output</button>
+</body>
+</html>

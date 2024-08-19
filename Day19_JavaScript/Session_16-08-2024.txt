@@ -1,0 +1,14 @@
+Function Expression:
+----------------------
+- We can treat functions like values in Javascript. 
+- This is called as function expressions. 
+- We can assign functions to variables and pass them as arguments to other functions. 
+- We can also return functions from other functions. 
+
+Objects:
+--------
+- 3 ways to create objects in Javascript:
+    1. Object Literals
+    2. Using new keyword
+    3. Using Constructor 
+

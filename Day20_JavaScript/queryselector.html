@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fun1()
+        {
+            let para = document.querySelector("p"); // It will select the first paragraph
+            para.style.backgroundColor = "red";
+        }
+
+        function fun2()
+        {
+            let para = document.querySelectorAll("p"); // It will select all the paragraph
+            alert(para.length);
+
+            for(let i = 0; i < para.length; i++)
+            {
+                para[i].style.backgroundColor = "yellow";
+            }
+
+            // para.style.backgroundColor = "red"; // This will not work as it will select all the paragraph and return as array. SO use loop
+        }
+
+    </script>
+
+    <h1> QUERY SELECTOR</h1>
+    <p>This is P</p>
+    <p>This is also P</p>
+    <p>Hello Welcome All</p>
+
+    <button onclick = "fun1()">Click me</button>
+    <button onclick = "fun2()">Click me</button>
+</body>
+</html>

@@ -1,0 +1,81 @@
+.x
+{
+    border: 1px solid purple;
+    padding: 30px; /* Space between border and text */
+    margin: 50px;
+}
+
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  /* Container properties */
+.container {
+    width: 80%; /* Sets the width to 80% of the parent element */
+    margin: 50px auto; /* Adds 50px margin to the top and bottom, auto centers the container horizontally */
+    padding: 20px; /* Adds 20px padding inside the container */
+    border: 2px solid #333; /* Adds a solid border with 2px thickness and dark gray color */
+    background-color: #f9f9f9; /* Sets the background color to light gray */
+    text-align: center; /* Centers the text inside the container */
+}
+
+/* Heading properties */
+h1 {
+    font-family: 'Arial', sans-serif; /* Sets the font family to Arial */
+    font-size: 36px; /* Sets the font size to 36px */
+    color: #333; /* Sets the font color to dark gray */
+    text-transform: uppercase; /* Transforms the text to uppercase */
+    letter-spacing: 2px; /* Increases the space between letters */
+    margin-bottom: 20px; /* Adds 20px margin below the heading */
+}
+
+/* Paragraph properties */
+.intro-text {
+    font-family: 'Georgia', serif; /* Sets the font family to Georgia */
+    font-size: 18px; /* Sets the font size to 18px */
+    color: #666; /* Sets the font color to gray */
+    line-height: 1.6; /* Increases the line height to make the text more readable */
+    padding: 10px; /* Adds 10px padding inside the paragraph */
+    border: 1px dotted #ccc; /* Adds a dotted border with 1px thickness and light gray color */
+    text-align: justify; /* Justifies the text to align both left and right */
+    height: 150px; /* Sets the height of the paragraph */
+    overflow-y: auto; /* Adds vertical scroll if the content exceeds the height */
+}
+
+p.custom-text {
+    color: #333; /* Sets the text color to dark gray */
+    text-align: justify; /* Justifies the text */
+    text-decoration: underline; /* Underlines the text */
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+    text-indent: 30px; /* Indents the first line by 30px */
+    letter-spacing: 2px; /* Increases the space between letters */
+    line-height: 1.5; /* Sets the line height to 1.5 times the font size */
+    word-spacing: 5px; /* Increases the space between words */
+    white-space: nowrap; /* Prevents the text from wrapping to a new line */
+    text-shadow: 2px 2px 4px #aaa; /* Adds a shadow effect to the text */
+}
+
+p.custom-font {
+    font-family: 'Arial', sans-serif; /* Sets the font family to Arial, with sans-serif as fallback */
+    font-size: 18px; /* Sets the font size to 18px */
+    font-style: italic; /* Italicizes the text */
+    font-weight: bold; /* Makes the text bold */
+    font-variant: small-caps; /* Displays the text in small caps */
+    line-height: 1.5; /* Sets the line height to 1.5 times the font size */
+    letter-spacing: 1px; /* Adds 1px spacing between letters */
+    text-transform: uppercase; /* Transforms text to uppercase */
+}
+
+
+body {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+  }

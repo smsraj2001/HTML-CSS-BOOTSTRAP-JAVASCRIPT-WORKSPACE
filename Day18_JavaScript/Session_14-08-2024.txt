@@ -1,0 +1,93 @@
+Javascript:
+-----------
+
+HTML: Basic Structure ---> (Skeleton)
+CSS: Apply style to html elements ---> (Skin)
+JavaScript: Add design on interactivity to html elements in web page ---> (Brain)
+    Eg: Validation, Animation, DOM Manipulation, Event Handling, AJAX, etc.
+
+Initially JavaScript was used for front-end development only. But now it is used for both front-end and back-end development.
+It will run in the browser and is asynchronous in nature.
+
+To run javascript:
+------------------
+- With the help of the browser ----> Chrome, Firefox, Safari, etc.
+- We can run outside the browser also. ----> Node.js
+    Node is the runtime environment for JavaScript.
+
+========================================================================================================================
+To add css we need <style> tag in head tag.
+To add javascript we need <script> tag in head tag.
+
+========================================================================================================================
+How to add javascript in html document:
+---------------------------------------
+- Inline JavaScript
+- Internal JavaScript ----> Inside the <script> tag in the head/ body tag.
+- External JavaScript ----> Link the external .js file in the head/ body tag.
+
+========================================================================================================================
+Where to print the javascript output:
+-------------------------------------
+- document.write() ----> It will print the output in the browser.
+- console.log() ----> It will print the output in the console.
+- window.alert() ----> It will print the output in the alert box.
+- innerHTML ----> It will print the output in the html element.
+  This is nothing but DOM Manipulation.
+
+========================================================================================================================
+document.getElementById('p1').innerHTML = 'Hello World in the p element...';
+The above line will print the 'Hello World in the p element...' in the p element.
+getElementById() is a method which is used to get the element by id.
+.innerHTML is a property which is used to set the content of the element at the place of the element.
+
+========================================================================================================================
+What javascript can do?:
+------------------------
+- It can change the content of the HTML page.
+- It can change the CSS Style.
+- It can change the HTML attributes.
+
+
+div
+span 
+col
+
+Skillup Coding
+========================================================================================================================
+Ecma Script:
+------------
+- Ecma Script is a standard for scripting languages.
+- It is a scripting language specification.
+- It is a standard for JavaScript.
+- It is a standard for the scripting language.
+- It is a standard for the web browser.
+
+ES6:
+----
+- ES6 is the 6th edition of Ecma Script.
+- It is also known as ES2015.
+- It is the latest version of Ecma Script.
+- It is the latest version of JavaScript.
+
+========================================================================================================================
+
+In javascript we can declare the same variable name more than twice. No error will be thrown.
+
+========================================================================================================================
+
+variable declaration in javascript:
+-----------------------------------
+- var
+- let
+- const
+
+let and const is introduced in ES6. This is the modern javascript.
+
+- var: It is a global scope variable. We can redeclare the variable with the same name. We can reassign the value to the variable.
+
+- let: block scope variable. We cannot redeclare the variable with the same name. We can reassign the value to the variable.
+
+- const: block scope variable. It is a constant variable. We cannot change the value of the const variable and cannot redeclare the variable with the same name.
+========================================================================================================================
+

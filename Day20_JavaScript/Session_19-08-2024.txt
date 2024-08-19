@@ -1,0 +1,95 @@
+Calculator App
+Quiz App
+
+===========================================================================================================
+DOM Methods
+------------
+1. getElementById
+2. getElementsByClassName
+3. getElementsByTagName
+4. querySelector
+5. querySelectorAll
+6. createElement
+7. appendChild
+8. removeChild
+9. setAttribute
+10. getAttribute
+11. removeAttribute
+12. innerHTML
+13. innerText
+14. textContent
+15. value
+16. style
+17. classList
+18. addEventListener
+19. removeEventListener
+20. preventDefault
+
+Template String:
+----------------
+- It is used to concatenate the string with the variables.
+
+    Syntax:
+    -------
+    `String ${variable}`
+
+    Example:
+    --------
+    let name = 'John';
+    console.log(`Hello ${name}`);
+
+===========================================================================================================
+Template Literals
+-----------------
+1. `${}`    
+
+===========================================================================================================
+Variable Hosting:
+-----------------
+- Using the variable before declaring it.
+
+    How it works:
+    -------------
+    - At runtime all the variable declaration will move to the top of the code. (First line)
+
+    - Only var can do hosting.
+    - let and const can't do hosting.
+
+===========================================================================================================
+
+for-of loop:
+------------
+- It is used to iterate over the elements of an array.
+    
+        Syntax:
+        -------
+        for (let element of array) {
+            // code
+        }
+    
+        Example:
+        --------
+        let fruits = ['Apple', 'Banana', 'Mango', 'Orange'];
+    
+        for (let fruit of fruits) {
+            console.log(fruit);
+        }
+
+===========================================================================================================
+Multiline String:
+-----------------
+- It is used to write the string in multiple lines.
+- It should be enclosed in backticks. (`)
+
+    Syntax:
+    -------
+    `String
+    String
+    String`
+
+    Example:
+    --------
+    console.log(`Hello
+    World`);
+
+===========================================================================================================
