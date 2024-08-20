@@ -1,0 +1,74 @@
+Modules
+Promises
+Fetch api
+Unit Testing
+
+Shortcut:  npm init -y (To create package.json file directly)
+
+Modules:
+--------
+- By using modules, we can break down our code into different folders (Same like packages in Java)
+- "type": "module", : Indicates code in different folders can be imported in other files
+=======================================================================================================
+
+Asybchronous Programming:
+-------------------------
+- Parallel execution of code
+
+- What is promise?
+-------------------
+- We do promise for future action.
+    - Promise can be fulfilled or can be rejected.
+
+    Promise states:
+    ---------------
+    - Pending
+    - Fulfilled
+    - Rejected
+
+=======================================================================================================
+
+Async and Await:
+----------------
+- It is the easier way to write the promises.
+
+
+Create a vehicle array/ file to perform CRUD operations using json server.
+
+Startting json server:
+----------------------
+npx json-server --watch db.json
+
+
+Shift+Alt+F : Format the doc
+Ctrl+K Ctrl+F : Format the block content
+Ctrl+K M: Change the language mode
+Ctrl+\ : Split the screen
+Ctrl+` : Open terminal
+Ctrl+Shift+` : Open new terminal, also Ctrl+J
+Crl+P : Open file
+Ctrl+Shift+M : Open problems
+Alt+UP/DOWN arrow: Move the line up and down
+Ctrl+L : Select the current line
+Ctrl+B : Toggle the sidebar
+Shift+Alt+UP/DOWN arrow: Copy the line up and down
+Ctrl+[ : Indent the code
+Ctrl+] : Outdent the code
+Ctrl+K Ctrl+C : Comment the block
+Ctrl+D : Multiline selction : Ctrl+Shift+L
+Ctrl+, : Go to settings
+Ctrl+Tab : Switch between tabs
+Ctrl+Shift+H: Replace in files
+Ctrl+K Ctrl+S: Keyboard shortcuts
+Ctrl+G : Go to line (colon and then line number)
+Ctrl+T : Go to symbol 
+Ctrl+Shift+K: Delete the line
+Ctrl+Shift+Enter: Insert line below
+Ctrl+Shift+\ : Jump to matching bracket
+Ctrl+HOME/END : Go to start/end of the file
+Ctrl+UP/DOWN arrow : Scroll up and down
+
+util repo
+- shortcuts
+- java naming conventions
+- git commands

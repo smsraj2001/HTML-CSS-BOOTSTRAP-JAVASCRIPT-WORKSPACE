@@ -1,0 +1,123 @@
+{
+  "vehicles": [
+    {
+      "id": "1",
+      "name": "TVS Apache RTR 160",
+      "cc": 160,
+      "price": 100000,
+      "mileage": 45
+    },
+    {
+      "name": "TVS Apache RTR 180 Updated",
+      "cc": 180,
+      "price": 112000,
+      "mileage": 42,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "TVS Apache RTR 200",
+      "cc": 200,
+      "price": 125000,
+      "mileage": 40
+    },
+    {
+      "id": "5",
+      "name": "TVS Ntorq",
+      "cc": 125,
+      "price": 80000,
+      "mileage": 50
+    },
+    {
+      "id": "6",
+      "name": "TVS Sport",
+      "cc": 100,
+      "price": 58000,
+      "mileage": 75
+    },
+    {
+      "id": "7",
+      "name": "TVS Star City Plus",
+      "cc": 110,
+      "price": 65000,
+      "mileage": 68
+    },
+    {
+      "id": "8",
+      "name": "TVS Radeon",
+      "cc": 110,
+      "price": 64000,
+      "mileage": 69
+    },
+    {
+      "id": "9",
+      "name": "TVS XL100",
+      "cc": 100,
+      "price": 45000,
+      "mileage": 80
+    },
+    {
+      "id": "10",
+      "name": "TVS Zest",
+      "cc": 110,
+      "price": 62000,
+      "mileage": 62
+    },
+    {
+      "id": "11",
+      "name": "TVS iQube Electric",
+      "cc": 0,
+      "price": 135000,
+      "mileage": 75
+    },
+    {
+      "id": "12",
+      "name": "TVS Scooty Pep Plus",
+      "cc": 90,
+      "price": 52000,
+      "mileage": 65
+    },
+    {
+      "id": "13",
+      "name": "TVS Scooty Zest",
+      "cc": 110,
+      "price": 61000,
+      "mileage": 62
+    },
+    {
+      "id": "14",
+      "name": "TVS Victor",
+      "cc": 110,
+      "price": 66000,
+      "mileage": 72
+    },
+    {
+      "id": "15",
+      "name": "TVS Apache RR 310",
+      "cc": 310,
+      "price": 250000,
+      "mileage": 30
+    },
+    {
+      "id": "dbc5",
+      "name": "TVS Raider",
+      "cc": 125,
+      "price": 85000,
+      "mileage": 60
+    },
+    {
+      "name": "TVS Moped",
+      "cc": 100,
+      "price": 65000,
+      "mileage": 70,
+      "id": "5872"
+    },
+    {
+      "id": "a744",
+      "name": "TVS Ronin",
+      "cc": 200,
+      "price": 200000,
+      "mileage": 50
+    }
+  ]
+}
