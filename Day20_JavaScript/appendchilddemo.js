@@ -1,5 +1,4 @@
-function fun0()
-{
+function fun0() {
     let p = document.createElement("p");
     let node = document.createTextNode("This is Paragraph");
     p.appendChild(node);
@@ -8,8 +7,7 @@ function fun0()
     element.appendChild(p);
 }
 
-function fun1()
-{
+function fun1() {
     let element = document.createElement("p");
     element.innerHTML = "Hello World!";
     element.style.backgroundColor = "yellow";
@@ -18,17 +16,15 @@ function fun1()
     document.getElementById("b").appendChild(element);
 }
 
-function fun2()
-{
+function fun2() {
     let element = document.createElement("h1");
-    element.innerHTML = "Append Child Demo Heading"; 
+    element.innerHTML = "Append Child Demo Heading";
     element.style.backgroundColor = "red";
 
     document.getElementById("b").appendChild(element);
 }
 
-function fun3()
-{
+function fun3() {
     let list = document.createElement("ul");
     let item1 = document.createElement("li");
     let item2 = document.createElement("li");
@@ -42,7 +38,7 @@ function fun3()
     item2.style.color = "blue";
     item3.innerHTML = "Item 3";
     item3.style.color = "green";
-    
+
     // Another way to create list item
     let text = document.createTextNode("Item 4");
     let item4 = document.createElement("li");
@@ -56,8 +52,7 @@ function fun3()
     document.getElementById("b").appendChild(list);
 }
 
-function fun4()
-{
+function fun4() {
     let element = document.getElementById("p1");
     element.remove();
 }

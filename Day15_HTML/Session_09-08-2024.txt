@@ -1,0 +1,218 @@
+HTML and Networking:
+--------------------
+
+Java, python, .net, php ----> backend server side programming
+SQL, noSQL, Oracle, MySQL, MongoDB ----> Database: To store data permanently
+HTML, CSS, Bootstrap, JavaScript, Angular, React, Vue, jQuery ----> Frontend: To design the webpage
+
+====================================================================================================
+
+Web Application:
+----------------
+We need internet
+
+Internet:
+---------
+Interconnected devices/ Network
+
+It connects millions of computers, webpages, websites and servers.
+Using internet, we can send emails
+
+Different types of Network:
+----------------------------
+1. LAN (Local Area Network)
+2. WAN (Wide Area Network)
+3. MAN
+4. PAN
+5. VPN
+6. Intranet
+7. Extranet
+8. Internet
+====================================================================================================
+What is IP Address?
+-------------------
+IP Address is a unique address of a computer in a network. It uniquely identifies a device in a network.
+
+Difference between ip4 and ip6:
+------------------------------
+IPv4:
+-----
+1. 32 bit address
+2. 4.3 billion addresses
+3. 4 octets
+
+IPv6:
+-----
+1. 128 bit address
+2. 340 undecillion addresses
+3. 8 octets
+
+OSI Model:
+----------
+1. Physical Layer
+2. Data Link Layer
+3. Network Layer
+4. Transport Layer
+5. Session Layer
+6. Presentation Layer
+7. Application Layer
+Let’s look at it with an Example:
+
+Luffy sends an e-mail to his friend Zoro.
+
+Step 1: Luffy interacts with e-mail application like Gmail, outlook, etc. Writes his email to send. (This happens in Layer 7: Application layer)
+
+Step 2: Mail application prepares for data transmission like encrypting data and formatting it for transmission. (This happens in Layer 6: Presentation Layer)
+
+Step 3: There is a connection established between the sender and receiver on the internet. (This happens in Layer 5: Session Layer)
+
+Step 4: Email data is broken into smaller segments. It adds sequence number and error-checking information to maintain the reliability of the information. (This happens in Layer 4: Transport Layer)
+
+Step 5: Addressing of packets is done in order to find the best route for transfer. (This happens in Layer 3: Network Layer)
+
+Step 6: Data packets are encapsulated into frames, then MAC address is added for local devices and then it checks for error using error detection. (This happens in Layer 2: Data Link Layer)
+
+Step 7: Lastly Frames are transmitted in the form of electrical/ optical signals over a physical network medium like ethernet cable or WiFi.
+
+After the email reaches the receiver i.e. Zoro, the process will reverse and decrypt the e-mail content. At last, the email will be shown on Zoro’s email client.
+
+====================================================================================================
+Network Topology:
+-----------------
+Topology defines how the devices are connected in a network. There are different types of network topologies:
+
+=========================================================================================================
+Firewall:
+---------
+Firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted network and an untrusted network.
+
+=========================================================================================================
+
+Network Terminologies:
+----------------------
+- Node: A device connected to a network
+- network: A collection of nodes connected together
+- router: A device that forwards data packets between computer networks
+- switch: A device that connects devices together on a computer network
+- hub: A device that connects multiple Ethernet devices together
+- gateway: A device that connects two networks together
+- firewall: A network security system that monitors and controls incoming and outgoing network traffic
+- bandwidth: The maximum rate of data transfer across a network
+- latency: The time it takes for data to travel from the source to the destination
+- packet: A unit of data transmitted over a network
+- protocol: A set of rules that govern data communication
+- subnet: A logical subdivision of an IP network
+- subnet mask: A number that separates the network and host parts of an IP address
+- DNS: Domain Name System, a system that translates domain names to IP addresses
+- DHCP: Dynamic Host Configuration Protocol, a protocol that assigns IP addresses to devices on a network
+- VPN: Virtual Private Network, a secure network connection that allows users to access the internet privately
+- NAT: Network Address Translation, a method of remapping one IP address space into another
+- MAC address: Media Access Control address, a unique identifier assigned to network interfaces
+- IP address: Internet Protocol address, a unique identifier assigned to devices on a network
+- TCP/IP: Transmission Control Protocol/Internet Protocol, a suite of communication protocols used to interconnect network devices
+- HTTP: Hypertext Transfer Protocol, a protocol used for transmitting data over the internet
+- HTTPS: Hypertext Transfer Protocol Secure, a secure version of HTTP
+- FTP: File Transfer Protocol, a protocol used for transferring files over a network
+- SMTP: Simple Mail Transfer Protocol, a protocol used for sending email
+- POP3: Post Office Protocol version 3, a protocol used for retrieving email
+- IMAP: Internet Message Access Protocol, a protocol used for retrieving email
+- SSL: Secure Sockets Layer, a protocol that provides secure communication over a computer network
+- TLS: Transport Layer Security, a protocol that provides secure communication over a computer network
+- SSH: Secure Shell, a protocol that provides secure access to a computer over an unsecured network
+- RDP: Remote Desktop Protocol, a protocol that allows remote access to a computer
+- VoIP: Voice over Internet Protocol, a technology that allows voice communication over the internet
+
+========================================================================================================
+HTML 5:
+-------
+HTML stands for Hyper Text Markup Language. It is used to create web pages. It is the standard markup language for creating web pages.
+
+Why we need HTML?
+-----------------
+To create a webpage, we need HTML. HTML is the basic building block of a webpage. 
+It is used to create the structure of a webpage.
+
+HTML Boilerplate Code:
+----------------------
+<!DOCTYPE html> : This is the declaration of the document type and version of HTML. This tells the browser that the document is an HTML5 document.
+<html> : This is the root element of an HTML page.
+<head> : This element contains meta-information about the document, such as the title of the document, links to stylesheets, and scripts.
+         seo: search engine optimization
+         add external css and java script.
+<title> : This element specifies the title of the document.
+</head> : This element marks the end of the head section.
+<body> : This element contains the content of the document, such as text, images, links, and other elements.
+         It will be displayed on the browser.
+</body> : This element marks the end of the body section.
+</html> : This element marks the end of the HTML document.
+========================================================================================================
+HTML Tags:
+----------
+1. Paired
+2. Unpaired
+
+Paired Tags:                                                 Unpaired Tags:
+------------                                                 -------------
+1. These tags have an opening tag and a closing tag.          1. These tags do not have a closing tag.
+2. The content goes between the opening and closing tags.     2. They are self-closing tags.
+3. Example: <p>Content goes here</p>                          3. Example: <img src="image.jpg" alt="image">
+
+element:
+--------
+<h1></h1> ---> Tags
+<h1>This is heading</h1>    (Tag and it has some content. This is called element)
+
+attribute:
+----------  
+It provides additional behaviour to the tag.
+
+========================================================================================================
+HTML Elements Types:
+---------------------
+1. Block Level Elements: Has a line break before and after the element.
+2. Inline Elements: Does not have a line break before and after the element. It takes only the required width.
+
+HTML Hierarchy:
+---------------
+1. HTML
+2. Head
+3. Title
+
+(ctrl + shift + L) ---> To include multiple cursors for a particular word.
+(h1+h2+h3+h4+h5+h6) ---> Heading Tags
+h1+p+h2+p
+
+========================================================================================================
+Table:
+------
+1. rowspan: It specifies the number of rows a cell should span.
+2. colspan: It specifies the number of columns a cell should span.
+
+========================================================================================================
+List:
+-----
+1. Ordered List: <ol> </ol>
+2. Unordered List: <ul> </ul>
+3. Description List: <dl> </dl>
+4. List Item: <li> </li>
+=========================================================================================================
+
+Monolith vs Microservice Architecture:-
+---------------------------------------
+
+
+=========================================================================================================
+Food Menu
+---------
+Breakfast
+    1. Idly Rs 30
+    2. Dosa Rs 40
+    3. Vada Rs 10
+
+Lunch:
+    1. Rice
+    2. Dosa
+
+Snacks:
+    1. Tea
+    2. Coffee
