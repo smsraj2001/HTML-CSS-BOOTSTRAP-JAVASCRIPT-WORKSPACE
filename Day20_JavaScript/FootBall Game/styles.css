@@ -1,44 +1,58 @@
-#game-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-#pitch {
-    width: 100%;
-    height: 500px;
-    background: #4CAF50;
-    border: 2px solid #fff;
-    position: relative;
+.game-header {
+    font-family: 'Arial', sans-serif;
+    color: #007bff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 3rem;
+    font-weight: bold;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-#ball {
-    width: 30px;
-    height: 30px;
-    background: #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#canvas {
+    background-color: white;
+    border: 2px solid #333;
 }
 
-#player1, #player2 {
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    position: absolute;
-    border-radius: 50%;
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: 2px solid #28a745;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    margin: 5px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-#player1 {
-    background: #FF5733;
-    top: 50%;
-    left: 20%;
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
 }
 
-#player2 {
-    background: #33C3F0;
-    top: 50%;
-    right: 20%;
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.5);
+}
+
+#out {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #e9ecef;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
 }

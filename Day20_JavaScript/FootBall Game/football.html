@@ -4,24 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football Game</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="text-center my-4">Football Game</h1>
-        <div id="game-container" class="text-center">
-            <div id="pitch" class="position-relative">
-                <div id="ball" class="position-absolute"></div>
-                <div id="player1" class="position-absolute"></div>
-                <div id="player2" class="position-absolute"></div>
-            </div>
-            <div class="mt-4">
-                <button id="startGame" class="btn btn-primary">Start Game</button>
+    <div class="container text-center">
+        <h1 class="my-4 game-header">Football Game</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <canvas id="canvas" width="700" height="500">Install Gentoo</canvas>
+                <div id="out" class="my-3"></div>
+                <button id="start-btn" class="btn btn-primary mt-3">Start Game</button>
+                <button id="reset-btn" class="btn btn-secondary mt-3">Reset Game</button>
             </div>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
