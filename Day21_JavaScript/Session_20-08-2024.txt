@@ -72,3 +72,18 @@ util repo
 - shortcuts
 - java naming conventions
 - git commands
+
+
+=======================================================================================================
+Mocha and chai:
+---------------
+https://www.browserstack.com/guide/unit-testing-for-nodejs-using-mocha-and-chai
+
+npm install mocha -- save-dev
+npm install chai -- save-dev
+
+String test:
+Uppercase
+String length
+String Concatenation
+String reverse
