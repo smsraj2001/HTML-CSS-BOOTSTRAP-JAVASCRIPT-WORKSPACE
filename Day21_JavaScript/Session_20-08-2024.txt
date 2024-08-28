@@ -87,3 +87,22 @@ Uppercase
 String length
 String Concatenation
 String reverse
+
+========================================================================================================
+
+Chai is the assertion library, it has methods.
+It provides 3 different styles to write the code: should, expect and assert. expect is most used.
+Write different methods of chai.
+
+========================================================================================================
+
+Mocha helps in moving to the test folder and run the test file. It is a testing framework. Mocha runs the javascript unit test.
+"test": "mocha"
+	npm test
+	-------> It finds the .test.js field.
+========================================================================================================
+
+Therefore Mocha + Chai is used in collaboration.
+
+https://mochajs.org/#the-test-directory
+https://www.chaijs.com/
